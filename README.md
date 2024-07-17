@@ -1,1 +1,5 @@
 # tf-create-m0-cluster
+
+
+export MONGODB_ATLAS_PUBLIC_KEY="xxxx"
+export MONGODB_ATLAS_PRIVATE_KEY="32313b49-8057-4d12-ade5-111111111"
