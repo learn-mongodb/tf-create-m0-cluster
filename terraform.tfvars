@@ -1,0 +1,7 @@
+atlas_org_id = "5fae6add6dbf6b0a4aeadfc1"
+atlas_project_name = "myFirstProject"
+environment = "dev"
+cluster_instance_size_name = "M0"
+atlas_region = "AP-SOUTHEAST-1"
+mongodb_version = "6.0"
+ip_address = "198.182.50.140"
