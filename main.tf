@@ -36,8 +36,8 @@ resource "mongodbatlas_cluster" "atlas-cluster" {
   cluster_type = "REPLICASET"
   provider_name = var.cloud_provider
   backing_provider_name =  var.cloud_provider
-  provider_region_name = "AP-SOUTHEAST-1"
-  provider_instance_size_name = "M0"
+  provider_region_name = var.atlas_region
+  provider_instance_size_name = var.cluster_instance_size_name
 }
 
 data "mongodbatlas_advanced_cluster" "atlas-cluser" {
